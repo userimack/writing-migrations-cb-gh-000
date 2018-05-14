@@ -1,5 +1,6 @@
 class AddFavoriteFoodToArtists < ActiveRecord::Migration
   def change
-    add_column :students, :favorite_food, :string
+    add_column :students, :grade, :integer,
+    add_column :students, :birthdate, :string
   end
 end
